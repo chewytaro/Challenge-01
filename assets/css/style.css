@@ -5,10 +5,12 @@
     margin: 0;
 }
 
+/*this makes the background color of the body grey*/
 body {
     background-color: #d9dcd6;
 }
 
+/*this makes it so that every header has the following design*/ 
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,6 +18,7 @@ body {
     color: #ffffff;
 }
 
+/*every h1 header will have this type of display and font-size*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -25,6 +28,7 @@ body {
     color: #d9dcd6;
 }
 
+/*more styling for the headings*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -42,15 +46,18 @@ body {
     margin-left: 25px;
 }
 
+/*this is how color of the links will show up*/ 
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*font-size for paragraphs*/
 p {
     font-size: 16px;
 }
 
+/*this contains the main image for the page and also stylings that goes with it*/
 .hero {
     height: 800px;
     width: 100%;
@@ -60,6 +67,7 @@ p {
     background-position: center;
 }
 
+/*these makes the images appear either on the right or left of the main section*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -70,12 +78,14 @@ p {
     margin-left: 25px;
 }
 
+/*stylings for content*/ 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*stylings for the column on the right hand side*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -105,6 +115,7 @@ p {
     max-width: 150px;
 }
 
+/*stylings for the main section of the page*/
 .main-content {
     margin-bottom: 20px;
     padding: 50px;
@@ -123,6 +134,7 @@ p {
     font-size: 36px;
 }
 
+/*stylings for the footer*/
 .footer {
     padding: 30px;
     clear: both;
